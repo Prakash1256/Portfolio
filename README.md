@@ -3,7 +3,7 @@
 #### Figma Design https://www.figma.com/community/file/1116246660507537002
 ### Preview ( Dark Mode )
 
-<img src="/preview.gif" alt="preview" width="600px" />
+<!-- <img src="/preview.gif" alt="preview" width="600px" /> -->
 
 ## Follow Below instructions to add your deatils in the portfolio.
 
@@ -14,8 +14,8 @@
 ```javascript
 / Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Kunwar Prakash Singh",
+  tagline: "Full stack devloper",
   img: profile,
   about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -26,14 +26,13 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/",
   github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+ 
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
+    Position: "Full stack devloper",
     Company: `Company Name here`,
     Location: "Bengaluru",
     Type: "Full Time",
