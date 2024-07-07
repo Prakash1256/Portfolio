@@ -10,6 +10,9 @@
 
 #### Open `/src/Details.js` & modify it as per your need.
 
+![Screenshot 2024-07-07 145309](https://github.com/Prakash1256/Portfolio/assets/158434598/d86b7049-3394-44e1-a4ad-4230b24b5e82)
+
+
 ```javascript
 / Enter your Personal Details here
 export const personalDetails = {
