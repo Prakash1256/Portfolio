@@ -43,8 +43,8 @@ export const personalDetails = {
 
 //Social Media URLs 
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://github.com/",
+  linkdein: "https://www.linkedin.com/in/kunwar-prakash-singh-7ba04b296",
+  github: "https://github.com/Prakash1256",
  
 };
 
