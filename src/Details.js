@@ -1,7 +1,6 @@
 
 // Logo images
 import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.png";
 // Tech stack images
@@ -15,9 +14,9 @@ import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
-import git from "./assets/techstack/git.png";
+
 import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
+
 import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png";
@@ -30,7 +29,7 @@ import projectImage6 from "./assets/projects/project6.png";
 // Logos
 export const logos = {
   logogradient: logogradient,
-  logo: logo,
+  
 };
 
 // Personal Details 
@@ -90,9 +89,7 @@ export const techStackDetails = {
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
-  postman: postman,
   npm: npm,
-  git: git,
   github: github,
   figma: figma,
 };
@@ -123,6 +120,7 @@ export const projectDetails = [
     previewLink: "https://66a75d1a195bb1063d3bc4c8--dreamy-vacherin-367ff1.netlify.app/",
     githubLink: "https://github.com/Prakash1256/internship_project",
   },
+  
   {
     title: "Decathlon",
     image: projectImage2,
@@ -147,6 +145,7 @@ export const projectDetails = [
     previewLink: "https://660e695c7751b065e3797062--imaginative-pixie-6e83c9.netlify.app/",
     githubLink: "https://github.com/Sartik0709/Compiler-Chintan-2345",
   },
+ 
  
 ];
 
