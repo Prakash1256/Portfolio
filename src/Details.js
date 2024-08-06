@@ -24,8 +24,8 @@ import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage5 from "./assets/projects/project5.png";
+import projectImage6 from "./assets/projects/project6.png";
 
 // Logos
 export const logos = {
@@ -108,6 +108,22 @@ export const projectDetails = [
     githubLink: "https://github.com/BabakhalilM/Huawei-Heroes_081",
   },
   {
+    title: "clone of better.com",
+    image: projectImage5,
+    description: `Better.com is a digital mortgage lender and financial services company that aims to simplify the home-buying process. Founded in 2016, Better.com leverages technology to provide a fast, transparent, and user-friendly experience for obtaining mortgages, refinancing, and managing home loans.`,
+    techstack: "HTML/CSS, JavaScript ,Next.js, Tailwind.css",
+    previewLink: "https://fluffy-lokum-2e9ded.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/better",
+  },
+  {
+    title: "Clone of Springdale School",
+    image: projectImage6,
+    description: `Springdale School Clone is a conceptual project aimed at replicating the functionalities and features of a school management system. It provides a comprehensive solution for managing various aspects of school operations, ensuring efficient and streamlined administration.`,
+    techstack: "HTML/CSS, JavaScript ,React.js, Tailwind.css",
+    previewLink: "https://66a75d1a195bb1063d3bc4c8--dreamy-vacherin-367ff1.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/internship_project",
+  },
+  {
     title: "Decathlon",
     image: projectImage2,
     description: `Decathlon is a global leader in sports equipment and apparel, offering a wide range of high-quality, affordable products for over 70 sports. Our mission is to make the pleasure and benefits of sports accessible to everyone.From beginners to professional athletes... `,
@@ -123,7 +139,7 @@ export const projectDetails = [
     previewLink: "https://cw-project-nlti-git-main-sagar-prasads-projects.vercel.app/",
     githubLink: "https://github.com/Sgrprsd11704088/CW-Project",
   },
-  {
+   {
     title: "No-Broker",
     image: projectImage4,
     description: `NoBroker is a pioneering online platform that eliminates middlemen by connecting property owners directly with tenants and buyers. With a mission to make real estate transactions simpler and cost-effective, NoBroker offers a hassle-free solution for renting, buying, and selling properties without brokerage fees`,
