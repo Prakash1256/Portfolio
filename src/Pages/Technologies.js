@@ -12,10 +12,8 @@ function Technologies() {
     bootstrap,
     sass,
     vscode,
-    git,
     github,
     npm,
-    postman,
     figma,
   } = techStackDetails;
   return (
