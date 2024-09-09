@@ -17,6 +17,7 @@ import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
+import node from  "./assets/techstack/node.png"
 
 // Project Images
 import projectImage1 from "./assets/projects/project1.png";
@@ -95,6 +96,7 @@ export const techStackDetails = {
   npm,
   github,
   figma,
+  node
 };
 
 // Project Details 
@@ -108,21 +110,22 @@ export const projectDetails = [
     githubLink: "https://github.com/BabakhalilM/Huawei-Heroes_081",
   },
   {
-    title: "Clone of better.com",
+    title: "Styler",
     image: projectImage5,
-    description: `Better.com is a digital mortgage lender and financial services company that aims to simplify the home-buying process. Founded in 2016, Better.com leverages technology to provide a fast, transparent, and user-friendly experience for obtaining mortgages, refinancing, and managing home loans.`,
-    techstack: "HTML/CSS, JavaScript, Next.js, Tailwind.css",
-    previewLink: "https://fluffy-lokum-2e9ded.netlify.app/",
-    githubLink: "https://github.com/Prakash1256/better",
+    description: `Styler App is a fashion and personal styling application designed to help users discover and manage their wardrobe. It offers features like outfit recommendations, style inspiration, and wardrobe organization tools. `,
+    techstack: "HTML/CSS, JavaScript, React.js, Tailwind.css",
+    previewLink: "https://66d0a280349c934dda97fc47--gleaming-sfogliatella-71cfc7.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/styler_1",
   },
   {
-    title: "Clone of Springdale School",
-    image: projectImage6,
-    description: `Springdale School Clone is a conceptual project aimed at replicating the functionalities and features of a school management system. It provides a comprehensive solution for managing various aspects of school operations, ensuring efficient and streamlined administration.`,
-    techstack: "HTML/CSS, JavaScript, React.js, Tailwind.css",
-    previewLink: "https://66a75d1a195bb1063d3bc4c8--dreamy-vacherin-367ff1.netlify.app/",
-    githubLink: "https://github.com/Prakash1256/internship_project",
+    title: "Dental",
+    image: projectImage4,
+    description: `A dental app is a mobile or web application designed to manage various aspects of dental care. It typically includes features such as appointment scheduling, patient records management, treatment planning, reminders for check-ups and medication, and access to dental health resources.`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://smileslot.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/Dental",
   },
+  
   {
     title: "Decathlon",
     image: projectImage2,
@@ -140,12 +143,12 @@ export const projectDetails = [
     githubLink: "https://github.com/Sgrprsd11704088/CW-Project",
   },
   {
-    title: "No-Broker",
-    image: projectImage4,
-    description: `NoBroker is a pioneering online platform that eliminates middlemen by connecting property owners directly with tenants and buyers. With a mission to make real estate transactions simpler and cost-effective, NoBroker offers a hassle-free solution for renting, buying, and selling properties without brokerage fees.`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://660e695c7751b065e3797062--imaginative-pixie-6e83c9.netlify.app/",
-    githubLink: "https://github.com/Sartik0709/Compiler-Chintan-2345",
+    title: "Clone of Springdale School",
+    image: projectImage6,
+    description: `Springdale School Clone is a conceptual project aimed at replicating the functionalities and features of a school management system. It provides a comprehensive solution for managing various aspects of school operation`,
+    techstack: "HTML/CSS, JavaScript, React.js, Tailwind.css",
+    previewLink: "https://66a75d1a195bb1063d3bc4c8--dreamy-vacherin-367ff1.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/internship_project",
   },
 ];
 
