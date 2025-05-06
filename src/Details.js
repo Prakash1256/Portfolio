@@ -25,7 +25,7 @@ import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
 import projectImage5 from "./assets/projects/project5.png";
-import projectImage6 from "./assets/projects/project6.png";
+import projectImage7 from "./assets/projects/project7.png";
 
 // Logos
 export const logos = {
@@ -49,36 +49,38 @@ export const socialMediaUrl = {
 // Work Experience 
 export const workDetails = [
   {
-    Position: "FullStack Developer",
+    Position: "Associate FullStack Developer",
+    Company: "Labrys Solutions",
+    Location: "Gurugram",
+    Type: "Full Time",
+    Duration: "Jan 2025 to currently working ",
+  },
+  {
+    Position: "FullStack Developer Training full time",
     Company: "Masai",
     Location: "Bengaluru",
     Type: "Training",
-    Duration: "Oct 2023 - Aug 2024",
+    Duration: "Dec 2023 -Dec 2024",
   },
-  {
-    Position: "FullStack Developer Internship",
-    Company: "Edureka",
-    Location: "Bengaluru",
-    Type: "Training",
-    Duration: "july 2022 - january 2023",
-  },
+ 
 ];
 
 // Education Details
 export const eduDetails = [
-  {
-    Position: "FullStack Developer",
-    Company: "Masai",
-    Location: "Bengaluru",
-    Type: "Training",
-    Duration: "Oct 2023 - Aug 2024",
-  },
+ 
   {
     Position: "DIPLOMA IN ELEMENTARY EDUCATION (D.El.Ed.)",
     Company: "Duja Devi Mahavidyalya Sahtwar Ballia",
     Location: "Uttar-Pradesh",
     Type: "Full Time",
-    Duration: "Jun 2019 - May 2024",
+    Duration: "Jun 2020 - May 2024",
+  },
+  {
+    Position: "Bachelor of Science(B.sc)",
+    Company: "Mahatama Gnadhi Kashi Vidyapeeth Vranasi",
+    Location: "Varanasi",
+    Type: "Full Time",
+    Duration: "june 2016 - june 2019",
   },
 ];
 
@@ -101,6 +103,14 @@ export const techStackDetails = {
 
 // Project Details 
 export const projectDetails = [
+  {
+    title: "Fitness Tracker ",
+    image: projectImage7,
+    description: `his is a Fitness Tracker App built using the MERN (MongoDB, Express, React, Node.js) stack. The app allows users to track their daily activities, monitor their progress, log their meals, and subscribe for premium features with PayPal integration for payment.`,
+    techstack: "Mongodb,React.js,express, Node",
+    previewLink: "https://polite-hotteok-c25d61.netlify.app/",
+    githubLink: "https://github.com/Prakash1256/fitness_tracker",
+  },
   {
     title: "Shine Heaven",
     image: projectImage1,
@@ -142,14 +152,7 @@ export const projectDetails = [
     previewLink: "https://cw-project-nlti-git-main-sagar-prasads-projects.vercel.app/",
     githubLink: "https://github.com/Sgrprsd11704088/CW-Project",
   },
-  {
-    title: "Clone of Springdale School",
-    image: projectImage6,
-    description: `Springdale School Clone is a conceptual project aimed at replicating the functionalities and features of a school management system. It provides a comprehensive solution for managing various aspects of school operation`,
-    techstack: "HTML/CSS, JavaScript, React.js, Tailwind.css",
-    previewLink: "https://66a75d1a195bb1063d3bc4c8--dreamy-vacherin-367ff1.netlify.app/",
-    githubLink: "https://github.com/Prakash1256/internship_project",
-  },
+ 
 ];
 
 // Contact Details 
